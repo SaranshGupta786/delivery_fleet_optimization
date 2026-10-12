@@ -1,0 +1,919 @@
+{
+ "elapsed_seconds": 66.3,
+ "generated_at_utc": "2026-10-12T05:01:03Z",
+ "preset": "medium",
+ "ratios": [
+  1.5,
+  1.35,
+  1.2,
+  1.1,
+  1.0,
+  0.9,
+  0.85
+ ],
+ "rows": [
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 92.86,
+   "objective": 1153.917,
+   "ratio": 1.5,
+   "runtime_ms": 45.79533300000005,
+   "seed": 11,
+   "unassigned": 10,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 92.86,
+   "objective": 1563.955,
+   "ratio": 1.5,
+   "runtime_ms": 246.5268329999999,
+   "seed": 11,
+   "unassigned": 10,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 99.29,
+   "objective": 492.218,
+   "ratio": 1.5,
+   "runtime_ms": 2497.3935420000003,
+   "seed": 11,
+   "unassigned": 1,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 97.14,
+   "objective": 792.153,
+   "ratio": 1.5,
+   "runtime_ms": 1265.1584999999995,
+   "seed": 11,
+   "unassigned": 4,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 95.0,
+   "objective": 1417.961,
+   "ratio": 1.5,
+   "runtime_ms": 46.237207999999974,
+   "seed": 23,
+   "unassigned": 7,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 92.86,
+   "objective": 2115.323,
+   "ratio": 1.5,
+   "runtime_ms": 177.60458400000002,
+   "seed": 23,
+   "unassigned": 10,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 98.57,
+   "objective": 1048.231,
+   "ratio": 1.5,
+   "runtime_ms": 2310.1624999999995,
+   "seed": 23,
+   "unassigned": 2,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 95.71,
+   "objective": 1296.157,
+   "ratio": 1.5,
+   "runtime_ms": 2071.2747499999996,
+   "seed": 23,
+   "unassigned": 6,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 97.14,
+   "objective": 882.996,
+   "ratio": 1.5,
+   "runtime_ms": 58.52624999999989,
+   "seed": 37,
+   "unassigned": 4,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 97.14,
+   "objective": 1142.152,
+   "ratio": 1.5,
+   "runtime_ms": 235.53620800000095,
+   "seed": 37,
+   "unassigned": 4,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 98.57,
+   "objective": 628.994,
+   "ratio": 1.5,
+   "runtime_ms": 3054.416541,
+   "seed": 37,
+   "unassigned": 2,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 98.57,
+   "objective": 667.815,
+   "ratio": 1.5,
+   "runtime_ms": 1322.4248330000012,
+   "seed": 37,
+   "unassigned": 2,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 92.14,
+   "objective": 1279.679,
+   "ratio": 1.35,
+   "runtime_ms": 42.648584000000156,
+   "seed": 11,
+   "unassigned": 11,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 92.86,
+   "objective": 1715.285,
+   "ratio": 1.35,
+   "runtime_ms": 181.66770800000086,
+   "seed": 11,
+   "unassigned": 10,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 99.29,
+   "objective": 593.365,
+   "ratio": 1.35,
+   "runtime_ms": 2265.4752909999997,
+   "seed": 11,
+   "unassigned": 1,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 97.86,
+   "objective": 768.126,
+   "ratio": 1.35,
+   "runtime_ms": 821.4007919999985,
+   "seed": 11,
+   "unassigned": 3,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 95.0,
+   "objective": 1307.295,
+   "ratio": 1.35,
+   "runtime_ms": 49.43408299999774,
+   "seed": 23,
+   "unassigned": 7,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 90.71,
+   "objective": 2274.846,
+   "ratio": 1.35,
+   "runtime_ms": 178.67120799999725,
+   "seed": 23,
+   "unassigned": 13,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 98.57,
+   "objective": 988.464,
+   "ratio": 1.35,
+   "runtime_ms": 2302.860958,
+   "seed": 23,
+   "unassigned": 2,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 96.43,
+   "objective": 1272.863,
+   "ratio": 1.35,
+   "runtime_ms": 922.2530420000012,
+   "seed": 23,
+   "unassigned": 5,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 94.29,
+   "objective": 1247.613,
+   "ratio": 1.35,
+   "runtime_ms": 55.87245899999971,
+   "seed": 37,
+   "unassigned": 8,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 95.71,
+   "objective": 1282.759,
+   "ratio": 1.35,
+   "runtime_ms": 200.7729590000018,
+   "seed": 37,
+   "unassigned": 6,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 98.57,
+   "objective": 656.798,
+   "ratio": 1.35,
+   "runtime_ms": 2300.070083999998,
+   "seed": 37,
+   "unassigned": 2,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 98.57,
+   "objective": 709.495,
+   "ratio": 1.35,
+   "runtime_ms": 1329.8766250000008,
+   "seed": 37,
+   "unassigned": 2,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 92.14,
+   "objective": 1281.494,
+   "ratio": 1.2,
+   "runtime_ms": 40.02824999999888,
+   "seed": 11,
+   "unassigned": 11,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 92.14,
+   "objective": 1725.649,
+   "ratio": 1.2,
+   "runtime_ms": 193.78483300000227,
+   "seed": 11,
+   "unassigned": 11,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 95.0,
+   "objective": 1290.601,
+   "ratio": 1.2,
+   "runtime_ms": 1787.8169170000006,
+   "seed": 11,
+   "unassigned": 7,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 95.71,
+   "objective": 1099.251,
+   "ratio": 1.2,
+   "runtime_ms": 898.2195829999995,
+   "seed": 11,
+   "unassigned": 6,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 93.57,
+   "objective": 1653.677,
+   "ratio": 1.2,
+   "runtime_ms": 57.54400000000004,
+   "seed": 23,
+   "unassigned": 9,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 87.14,
+   "objective": 2890.094,
+   "ratio": 1.2,
+   "runtime_ms": 175.61220900000052,
+   "seed": 23,
+   "unassigned": 18,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 97.14,
+   "objective": 1182.722,
+   "ratio": 1.2,
+   "runtime_ms": 2022.6006249999991,
+   "seed": 23,
+   "unassigned": 4,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 93.57,
+   "objective": 1657.912,
+   "ratio": 1.2,
+   "runtime_ms": 831.7675829999978,
+   "seed": 23,
+   "unassigned": 9,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 95.71,
+   "objective": 1026.499,
+   "ratio": 1.2,
+   "runtime_ms": 56.71399999999949,
+   "seed": 37,
+   "unassigned": 6,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 95.71,
+   "objective": 1273.718,
+   "ratio": 1.2,
+   "runtime_ms": 201.420916,
+   "seed": 37,
+   "unassigned": 6,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 98.57,
+   "objective": 633.511,
+   "ratio": 1.2,
+   "runtime_ms": 2545.2322500000014,
+   "seed": 37,
+   "unassigned": 2,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 97.86,
+   "objective": 930.746,
+   "ratio": 1.2,
+   "runtime_ms": 878.5770420000034,
+   "seed": 37,
+   "unassigned": 3,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 85.0,
+   "objective": 2374.747,
+   "ratio": 1.1,
+   "runtime_ms": 35.036000000005174,
+   "seed": 11,
+   "unassigned": 21,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 90.71,
+   "objective": 1836.14,
+   "ratio": 1.1,
+   "runtime_ms": 180.05916700000313,
+   "seed": 11,
+   "unassigned": 13,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 94.29,
+   "objective": 1638.336,
+   "ratio": 1.1,
+   "runtime_ms": 1848.0166249999997,
+   "seed": 11,
+   "unassigned": 8,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 95.0,
+   "objective": 1189.172,
+   "ratio": 1.1,
+   "runtime_ms": 815.1187919999998,
+   "seed": 11,
+   "unassigned": 7,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 93.57,
+   "objective": 1615.178,
+   "ratio": 1.1,
+   "runtime_ms": 47.01545799999707,
+   "seed": 23,
+   "unassigned": 9,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 88.57,
+   "objective": 2663.405,
+   "ratio": 1.1,
+   "runtime_ms": 189.9720410000043,
+   "seed": 23,
+   "unassigned": 16,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 97.14,
+   "objective": 1284.181,
+   "ratio": 1.1,
+   "runtime_ms": 2080.5056660000005,
+   "seed": 23,
+   "unassigned": 4,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 93.57,
+   "objective": 1732.136,
+   "ratio": 1.1,
+   "runtime_ms": 772.0659590000025,
+   "seed": 23,
+   "unassigned": 9,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 95.0,
+   "objective": 1182.666,
+   "ratio": 1.1,
+   "runtime_ms": 60.89725000000357,
+   "seed": 37,
+   "unassigned": 7,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 94.29,
+   "objective": 1733.913,
+   "ratio": 1.1,
+   "runtime_ms": 202.13529200000124,
+   "seed": 37,
+   "unassigned": 8,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 98.57,
+   "objective": 663.217,
+   "ratio": 1.1,
+   "runtime_ms": 2083.303208000004,
+   "seed": 37,
+   "unassigned": 2,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 97.86,
+   "objective": 929.361,
+   "ratio": 1.1,
+   "runtime_ms": 996.3777079999971,
+   "seed": 37,
+   "unassigned": 3,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 82.14,
+   "objective": 2672.168,
+   "ratio": 1.0,
+   "runtime_ms": 38.682250000000806,
+   "seed": 11,
+   "unassigned": 25,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 85.71,
+   "objective": 2484.742,
+   "ratio": 1.0,
+   "runtime_ms": 171.7464580000012,
+   "seed": 11,
+   "unassigned": 20,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 87.14,
+   "objective": 2554.866,
+   "ratio": 1.0,
+   "runtime_ms": 1527.2852500000056,
+   "seed": 11,
+   "unassigned": 18,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 93.57,
+   "objective": 1469.498,
+   "ratio": 1.0,
+   "runtime_ms": 710.777041,
+   "seed": 11,
+   "unassigned": 9,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 92.14,
+   "objective": 1981.236,
+   "ratio": 1.0,
+   "runtime_ms": 46.12245900000289,
+   "seed": 23,
+   "unassigned": 11,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 87.14,
+   "objective": 2884.165,
+   "ratio": 1.0,
+   "runtime_ms": 195.17674999999457,
+   "seed": 23,
+   "unassigned": 18,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 96.43,
+   "objective": 1473.3,
+   "ratio": 1.0,
+   "runtime_ms": 1534.2787499999986,
+   "seed": 23,
+   "unassigned": 5,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 90.71,
+   "objective": 2219.919,
+   "ratio": 1.0,
+   "runtime_ms": 742.1596670000029,
+   "seed": 23,
+   "unassigned": 13,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 94.29,
+   "objective": 1441.392,
+   "ratio": 1.0,
+   "runtime_ms": 51.80958400000435,
+   "seed": 37,
+   "unassigned": 8,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 92.14,
+   "objective": 1965.856,
+   "ratio": 1.0,
+   "runtime_ms": 213.9867910000035,
+   "seed": 37,
+   "unassigned": 11,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 97.86,
+   "objective": 1094.693,
+   "ratio": 1.0,
+   "runtime_ms": 2057.1595409999973,
+   "seed": 37,
+   "unassigned": 3,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 96.43,
+   "objective": 1209.719,
+   "ratio": 1.0,
+   "runtime_ms": 1003.836917000001,
+   "seed": 37,
+   "unassigned": 5,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 82.14,
+   "objective": 2971.972,
+   "ratio": 0.9,
+   "runtime_ms": 28.06925000000149,
+   "seed": 11,
+   "unassigned": 25,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 85.71,
+   "objective": 2517.298,
+   "ratio": 0.9,
+   "runtime_ms": 185.18933299999674,
+   "seed": 11,
+   "unassigned": 20,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 81.43,
+   "objective": 3790.393,
+   "ratio": 0.9,
+   "runtime_ms": 1421.7989590000002,
+   "seed": 11,
+   "unassigned": 26,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 92.14,
+   "objective": 1698.748,
+   "ratio": 0.9,
+   "runtime_ms": 739.1224580000041,
+   "seed": 11,
+   "unassigned": 11,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 90.71,
+   "objective": 2176.946,
+   "ratio": 0.9,
+   "runtime_ms": 39.1229580000001,
+   "seed": 23,
+   "unassigned": 13,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 85.71,
+   "objective": 3162.369,
+   "ratio": 0.9,
+   "runtime_ms": 203.15183299999973,
+   "seed": 23,
+   "unassigned": 20,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 89.29,
+   "objective": 2822.657,
+   "ratio": 0.9,
+   "runtime_ms": 1706.869917000006,
+   "seed": 23,
+   "unassigned": 15,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 90.71,
+   "objective": 2265.195,
+   "ratio": 0.9,
+   "runtime_ms": 618.5564999999968,
+   "seed": 23,
+   "unassigned": 13,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 89.29,
+   "objective": 1837.708,
+   "ratio": 0.9,
+   "runtime_ms": 51.47350000000017,
+   "seed": 37,
+   "unassigned": 15,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 89.29,
+   "objective": 2345.041,
+   "ratio": 0.9,
+   "runtime_ms": 211.43158399999606,
+   "seed": 37,
+   "unassigned": 15,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 85.71,
+   "objective": 3064.973,
+   "ratio": 0.9,
+   "runtime_ms": 1723.056917000001,
+   "seed": 37,
+   "unassigned": 20,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 90.71,
+   "objective": 2213.947,
+   "ratio": 0.9,
+   "runtime_ms": 680.0739580000013,
+   "seed": 37,
+   "unassigned": 13,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 80.0,
+   "objective": 2976.682,
+   "ratio": 0.85,
+   "runtime_ms": 31.03512499999539,
+   "seed": 11,
+   "unassigned": 28,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 80.71,
+   "objective": 3373.03,
+   "ratio": 0.85,
+   "runtime_ms": 188.64412499999617,
+   "seed": 11,
+   "unassigned": 27,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 74.29,
+   "objective": 5058.734,
+   "ratio": 0.85,
+   "runtime_ms": 1277.2012090000046,
+   "seed": 11,
+   "unassigned": 36,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 89.29,
+   "objective": 2043.273,
+   "ratio": 0.85,
+   "runtime_ms": 653.4310409999975,
+   "seed": 11,
+   "unassigned": 15,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 86.43,
+   "objective": 2771.438,
+   "ratio": 0.85,
+   "runtime_ms": 36.85349999999943,
+   "seed": 23,
+   "unassigned": 19,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 83.57,
+   "objective": 3356.389,
+   "ratio": 0.85,
+   "runtime_ms": 216.95008399999693,
+   "seed": 23,
+   "unassigned": 23,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 81.43,
+   "objective": 3887.79,
+   "ratio": 0.85,
+   "runtime_ms": 1264.7456669999997,
+   "seed": 23,
+   "unassigned": 26,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 85.71,
+   "objective": 3061.087,
+   "ratio": 0.85,
+   "runtime_ms": 753.816791999995,
+   "seed": 23,
+   "unassigned": 20,
+   "variant": "rl[+polish]"
+  },
+  {
+   "algorithm": "greedy",
+   "coverage_pct": 85.0,
+   "objective": 2095.051,
+   "ratio": 0.85,
+   "runtime_ms": 41.34433400000148,
+   "seed": 37,
+   "unassigned": 21,
+   "variant": "greedy[priority]"
+  },
+  {
+   "algorithm": "hungarian",
+   "coverage_pct": 85.71,
+   "objective": 2809.226,
+   "ratio": 0.85,
+   "runtime_ms": 230.65245800000866,
+   "seed": 37,
+   "unassigned": 20,
+   "variant": "hungarian[+lateness]"
+  },
+  {
+   "algorithm": "regret",
+   "coverage_pct": 80.0,
+   "objective": 3875.066,
+   "ratio": 0.85,
+   "runtime_ms": 1696.4664999999995,
+   "seed": 37,
+   "unassigned": 28,
+   "variant": "regret[+polish]"
+  },
+  {
+   "algorithm": "rl",
+   "coverage_pct": 85.71,
+   "objective": 2773.739,
+   "ratio": 0.85,
+   "runtime_ms": 655.0197920000045,
+   "seed": 37,
+   "unassigned": 20,
+   "variant": "rl[+polish]"
+  }
+ ],
+ "seeds": [
+  11,
+  23,
+  37
+ ],
+ "table": [
+  {
+   "greedy[priority]": 1151.6246666666666,
+   "hungarian[+lateness]": 1607.1433333333334,
+   "ratio": 1.5,
+   "regret[+polish]": 723.1476666666667,
+   "rl[+polish]": 918.7083333333334,
+   "rl_lead_pct": -27.042978312866474
+  },
+  {
+   "greedy[priority]": 1278.1956666666667,
+   "hungarian[+lateness]": 1757.63,
+   "ratio": 1.35,
+   "regret[+polish]": 746.2090000000002,
+   "rl[+polish]": 916.828,
+   "rl_lead_pct": -22.86477381001834
+  },
+  {
+   "greedy[priority]": 1320.5566666666666,
+   "hungarian[+lateness]": 1963.1536666666668,
+   "ratio": 1.2,
+   "regret[+polish]": 1035.6113333333335,
+   "rl[+polish]": 1229.303,
+   "rl_lead_pct": -18.703123501287795
+  },
+  {
+   "greedy[priority]": 1724.1970000000001,
+   "hungarian[+lateness]": 2077.8193333333334,
+   "ratio": 1.1,
+   "regret[+polish]": 1195.2446666666667,
+   "rl[+polish]": 1283.5563333333332,
+   "rl_lead_pct": -7.388584875509435
+  },
+  {
+   "greedy[priority]": 2031.5986666666668,
+   "hungarian[+lateness]": 2444.921,
+   "ratio": 1.0,
+   "regret[+polish]": 1707.6196666666667,
+   "rl[+polish]": 1633.0453333333335,
+   "rl_lead_pct": 4.36715123332498
+  },
+  {
+   "greedy[priority]": 2328.8753333333334,
+   "hungarian[+lateness]": 2674.9026666666664,
+   "ratio": 0.9,
+   "regret[+polish]": 3226.007666666667,
+   "rl[+polish]": 2059.2966666666666,
+   "rl_lead_pct": 36.16578509887815
+  },
+  {
+   "greedy[priority]": 2614.3903333333333,
+   "hungarian[+lateness]": 3179.5483333333336,
+   "ratio": 0.85,
+   "regret[+polish]": 4273.863333333334,
+   "rl[+polish]": 2626.033,
+   "rl_lead_pct": 38.55599032569284
+  }
+ ]
+}

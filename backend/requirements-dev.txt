@@ -1,0 +1,4 @@
+# Test/dev dependencies (installed by the Dockerfile `test` stage).
+-r requirements.txt
+pytest==8.4.2
+httpx==0.28.1

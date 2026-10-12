@@ -1,0 +1,13 @@
+[project]
+name = "delivery-fleet-allocation-engine"
+version = "1.0.0"
+description = "Delivery-fleet resource allocation engine: greedy, Hungarian, regret-insertion and RL strategies."
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-q --strict-markers"
+markers = [
+    "slow: tests that train the RL policy or brute-force optimality checks",
+]

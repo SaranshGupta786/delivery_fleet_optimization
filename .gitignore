@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
+
+# OS / editor
+.DS_Store
+*.swp
+
+# local documents (not part of the repo)
+*.pdf

@@ -1,0 +1,47 @@
+# One container, one port: FastAPI serves the API and the built SPA on :8000.
+#
+#   docker compose up --build        # build + start
+#   docker compose run --rm engine python -m app.rl.train --quiet   # retrain
+#   docker compose --profile test run --rm tests                    # pytest
+
+services:
+  engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    image: delivery-fleet-allocation-engine:1.0.0
+    container_name: delivery-fleet-allocation-engine
+    ports:
+      - "8000:8000"
+    environment:
+      PORT: "8000"
+      LOG_LEVEL: info
+      RL_POLICY_PATH: /app/backend/artifacts/rl_policy.json
+    healthcheck:
+      test:
+        [
+          "CMD",
+          "python",
+          "-c",
+          "import urllib.request,sys;sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/api/health',timeout=3).status==200 else 1)",
+        ]
+      interval: 15s
+      timeout: 3s
+      retries: 5
+      start_period: 8s
+    restart: unless-stopped
+    init: true
+
+  # `docker compose --profile test run --rm tests` runs the pytest suite inside
+  # the same image (dev dependencies installed in the test stage).
+  tests:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: test
+    image: delivery-fleet-allocation-engine:1.0.0-test
+    profiles: ["test"]
+    environment:
+      RL_POLICY_PATH: /app/backend/artifacts/rl_policy.json
+    command: ["python", "-m", "pytest", "-q"]

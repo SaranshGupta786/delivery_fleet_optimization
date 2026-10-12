@@ -1,0 +1,6 @@
+# Runtime dependencies (no API keys, no network calls at runtime).
+fastapi==0.128.8
+uvicorn==0.39.0
+pydantic==2.13.5
+numpy==1.26.4
+scipy==1.13.1
